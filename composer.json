@@ -1,21 +1,13 @@
 {
-    "name":          "lastguest/murmurhash",
+    "name":          "nekulin/murmurhash",
     "type":          "library",
     "description":   "MurmurHash3 Hash",
-    "homepage":      "https://github.com/lastguest/murmurhash-php",
     "keywords":      [
         "hash",
         "hashing",
         "murmur"
     ],
     "license":       "MIT",
-    "authors": [
-        {
-            "name":     "Stefano Azzolini",
-            "email":    "lastguest@gmail.com",
-            "homepage": "https://github.com/lastguest/murmurhash-php"
-        }
-    ],
     "scripts": {
         "test" : [
           "vendor/bin/phpstan analyse --ansi -n -c tests/phpstan.neon -l 5 src",
@@ -27,11 +19,7 @@
         "classmap-authoritative": true
     },
     "require": {
-        "php": "^7||^8.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7||^9",
-        "phpstan/phpstan": "^0.12"
+        "php": "^8.3"
     },
     "minimum-stability": "stable",
     "autoload": {
